@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.pink-gradient-1 {
+    background: #d4a7cf;
+    background: linear-gradient(104deg, #d4a7cf 0%, #eedbed 27%, #ffacf6 79%, #ffffff 100%);
+}

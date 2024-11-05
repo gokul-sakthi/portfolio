@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <div class="sm:container sm:mx-auto sm:mt-4 sm:h-full space-y-16">
+    <nav class="flex justify-between items-center p-4 h-[3.5rem]">
+      <div class="text-2xl font-bold">My Portfolio</div>
+      <div class="flex gap-6">
+        <a href="#" class="hover:underline sm:text-lg hover:text-slate-800 text-blue-900">Home</a>
+        <a href="#" class="hover:underline sm:text-lg hover:text-slate-800 text-blue-900">Projects</a>
+        <a href="#" class="hover:underline sm:text-lg hover:text-slate-800 text-blue-900">Contact</a>
+      </div>
+    </nav>
+
+    <!-- CTA Section -->
+    <section class="h-[calc(100vh-3.5rem-4rem)] sm:flex">
+      <div class="sm:flex sm:justify-center sm:flex-col sm:p-4 sm:pl-8 sm:gap-2 sm:basis-1/2">
+        <h1 class="text-5xl sm:font-bold font-sans">Hello I'm Gokul</h1>
+        <h2 class="text-xl text-slate-600 mb-3">Backend Developer</h2>
+        <h3 class="text-lg">
+          Interested in Web Development, building and automating things for
+          personal needs and innovative solutions.
+        </h3>
+        <div class="flex gap-4 my-3">
+          <button class="px-8 py-4 text-lg border-2 border-blue-700 rounded-md shadow-md">
+            Download CV
+          </button>
+          <button class="px-8 py-4 text-lg bg-blue-500 text-slate-100 rounded-md shadow-md">
+            Contact Me
+          </button>
+        </div>
+      </div>
+      <div class="sm:flex sm:justify-center sm:items-center sm:basis-1/2">
+        <img src="assets/images/gift.png" class="h-96 w-96" alt="gift pattern" />
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section class="sm:flex sm:flex-col gap-2 my-4">
+      <h3 class="text-4xl mb-12 font-bold">Work Experience</h3>
+      <div class="sm:grid sm:grid-cols-2 sm:gap-2">
+        <div
+          class="sm:flex sm:p-10 sm:gap-8 sm:mb-5 sm:mx-auto sm:shadow-md hover:bg-slate-200 transition-colors duration-150">
+          <img src="assets/images/suitcase.png" class="h-12 w-12" alt="suitcase icon" />
+          <div class="space-y-5">
+            <div class="space-y-1">
+              <p class="sm:text-2xl text-slate-800 sm: font-bold">
+                Praxio IT Consulting Private Limited
+              </p>
+              <p class="sm:text-lg sm:text-slate-600">Backend Developer</p>
+              <p class="text-slate-900 sm:text-xs sm:font-bold">
+                July 2023 - Present
+              </p>
+            </div>
+            <p class="text-slate-900">
+              As part of the backend team, I lead a small team handling the
+              server side, including database migrations, API, Deployments via
+              AWS. I was able to contribute to integrating the changes to the
+              frontend as well.
+            </p>
+            <p>
+              My day to day responsibilities included working on the
+              development of the backend, implementing solutions for the
+              development work ahead.
+            </p>
+            <p>
+              My proficiency during these times were using prisma, nodejs and
+              a bit of Golang. I was able to contribute to desktop development
+              via eletron apps.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="sm:flex sm:p-10 sm:gap-8 sm:mb-5 sm:mx-auto sm:shadow-md hover:bg-slate-200 transition-colors duration-150">
+          <img src="assets/images/suitcase.png" class="h-12 w-12" alt="suitcase icon" />
+          <div class="space-y-5">
+            <div class="space-y-1">
+              <p class="sm:text-2xl text-slate-800 sm: font-bold">
+                Analog and Digital Labs Private Limited
+              </p>
+              <p class="sm:text-lg sm:text-slate-600">Backend Developer</p>
+              <p class="text-slate-900 sm:text-xs sm:font-bold">
+                June 2022 - May 2023
+              </p>
+            </div>
+            <p class="text-slate-900">
+              I was part of the software development team, where I was
+              responsible for the backend development of the application. It
+              primarly included handling ERP application of a ecommerce site.
+              I was incharge for handling the processing of the incoming video
+              frames via API and storage via modular monolith architecture.
+            </p>
+            <p>
+              I was introduced to Desktop development via Electron apps and
+              also was actively contributing in the integration of the
+              frontend application through APIs.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="sm:flex sm:p-10 sm:gap-8 sm:mb-5 sm:mx-auto sm:shadow-md hover:bg-slate-200 transition-colors duration-150">
+          <img src="assets/images/suitcase.png" class="h-12 w-12" alt="suitcase icon" />
+          <div class="space-y-5">
+            <div class="space-y-1">
+              <p class="sm:text-2xl text-slate-800 sm: font-bold">
+                iamneo.ai
+              </p>
+              <p class="sm:text-lg sm:text-slate-600">
+                Intern for full stack development
+              </p>
+              <p class="text-slate-900 sm:text-xs sm:font-bold">
+                August 2020 - April 2021
+              </p>
+            </div>
+            <p class="text-slate-900">
+              As part of the Ed-tech team, I was responsible for preparing the
+              scaffolding of the backend/frontend applications in Stringboot
+              and React JS followed by the SQL/NOSQL implementations.
+            </p>
+            <p>
+              I was also handling the automated test suites by using Jest and
+              Puppeteer.
+            </p>
+            <p>
+              Was able to implement Splunk, Jenkins to integrate a CI/CD
+              pipeline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="mb-4">
+      <h3 class="text-4xl mb-12 font-bold">My Projects</h3>
+      <div class="sm:grid sm:gap-4 sm:grid-cols-3 content-center">
+        <div
+          class="sm:shadow-md sm:w-96 sm:border-slate-300 min-h-[28rem] sm:p-6 space-y-2 hover:border-1 hover:bg-slate-100 rounded-md mx-auto hover:ring-2 hover:ring-offset-2">
+          <div class="sm:h-52 sm:rounded-md sm:border-2">
+            <img src="assets/images/bramha-description.webp" class="w-full h-full object-cover rounded-md" alt=""
+              srcset="" />
+          </div>
+          <div class="sm:flex sm:flex-col">
+            <p class="text-2xl sm:mb-2 font-bold">Bramha</p>
+            <p class="mb-4">
+              Ecommerce Jewellery Website accompanied with ERP features.
+              Includes Sales order, email generation, and shipment tracking.
+            </p>
+            <div class="sm:flex gap-2 mb-4">
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">NestJS</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">React</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Prisma</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Antd</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- TVDS -->
+        <div
+          class="sm:shadow-md sm:w-96 sm:border-slate-300 min-h-[28rem] sm:p-6 space-y-2 hover:border-1 hover:bg-slate-100 rounded-md mx-auto hover:ring-2 hover:ring-offset-2">
+          <div class="sm:h-52 sm:rounded-md sm:border-2">
+            <img src="assets/images/tvds.webp" class="w-full h-full object-cover rounded-md" alt="" srcset="" />
+          </div>
+          <div class="sm:flex sm:flex-col">
+            <p class="text-2xl sm:mb-2 font-bold">Bramha</p>
+            <p class="mb-4">
+              Ecommerce Jewellery Website accompanied with ERP features.
+              Includes Sales order, email generation, and shipment tracking.
+            </p>
+            <div class="sm:flex gap-2">
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">NestJS</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">React</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Prisma</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Antd</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bcuze  -->
+        <div
+          class="sm:shadow-md sm:w-96 sm:border-slate-300 min-h-[28rem] sm:p-6 space-y-2 hover:border-1 hover:bg-slate-100 rounded-md mx-auto hover:ring-2 hover:ring-offset-2">
+          <div class="sm:h-52 sm:rounded-md sm:border-2">
+            <img src="assets/images/bcuze.webp" class="w-full h-full object-cover rounded-md" alt="" srcset="" />
+          </div>
+          <div class="sm:flex sm:flex-col">
+            <p class="text-2xl sm:mb-2 font-bold">Bramha</p>
+            <p class="mb-4">
+              Ecommerce Jewellery Website accompanied with ERP features.
+              Includes Sales order, email generation, and shipment tracking.
+            </p>
+            <div class="sm:flex gap-2">
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">NestJS</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">React</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Prisma</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Antd</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prisonbridge -->
+        <div
+          class="sm:shadow-md sm:w-96 sm:border-slate-300 min-h-[28rem] sm:p-6 space-y-2 hover:border-1 hover:bg-slate-100 rounded-md mx-auto hover:ring-2 hover:ring-offset-2">
+          <div class="sm:h-52 sm:rounded-md sm:border-2">
+            <img src="assets/images/prisonbridge.webp" class="w-full h-full object-cover rounded-md" alt="" srcset="" />
+          </div>
+          <div class="sm:flex sm:flex-col">
+            <p class="text-2xl sm:mb-2 font-bold">Bramha</p>
+            <p class="mb-4">
+              Ecommerce Jewellery Website accompanied with ERP features.
+              Includes Sales order, email generation, and shipment tracking.
+            </p>
+            <div class="sm:flex gap-2">
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">NestJS</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">React</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Prisma</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Antd</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Management -->
+        <div
+          class="sm:shadow-md sm:w-96 sm:border-slate-300 min-h-[28rem] sm:p-6 space-y-2 hover:border-1 hover:bg-slate-100 rounded-md mx-auto hover:ring-2 hover:ring-offset-2">
+          <div class="sm:h-52 sm:rounded-md sm:border-2">
+            <img src="assets/images/casemanagement.webp" class="w-full h-full object-cover rounded-md" alt=""
+              srcset="" />
+          </div>
+          <div class="sm:flex sm:flex-col">
+            <p class="text-2xl sm:mb-2 font-bold">Bramha</p>
+            <p class="mb-4">
+              Ecommerce Jewellery Website accompanied with ERP features.
+              Includes Sales order, email generation, and shipment tracking.
+            </p>
+            <div class="sm:flex gap-2">
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">NestJS</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">React</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Prisma</span>
+              <span class="bg-blue-400 text-slate-100 sm:py-2 sm:px-4 sm:rounded-sm">Antd</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- END -->
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+      <h3 class="text-4xl mb-12 font-bold">Contact Me</h3>
+      <div class="sm:grid sm:grid-cols-2 sm:gap-2 place-content-center">
+        <div class="self-center justify-self-center">
+          <img src="assets//images/link.png" class="h-52 w-52" alt="link icon" />
+        </div>
+        <div class="">
+          <form action="" method="post"
+            class="sm: mx-auto sm:flex sm:flex-col sm:gap-3 sm:w-[40rem] min-h-96 sm:px-6 py-8 rounded-md shadow-md">
+            <div class="sm:flex sm:flex-col">
+              <input type="text" name="name" id="name"
+                class="text-slate-900 sm:text-lg sm:p-2 sm:w-full sm:rounded-sm ring-2 focus:bg-blue-100 focus:placeholder:text-slate-800 sm:outline-none"
+                placeholder="Enter your name" />
+            </div>
+
+            <div class="sm:flex sm:flex-col">
+              <input type="email" name="email" id="email"
+                class="text-slate-900 sm:text-lg sm:p-2 sm:w-full sm:rounded-sm ring-2 focus:bg-blue-100 focus:placeholder:text-slate-800 sm:outline-none"
+                placeholder="Enter your email" />
+            </div>
+
+            <div class="sm:flex sm:flex-col">
+              <textarea type="text" name="message" id="message" rows="6"
+                class="text-slate-900 sm:text-lg sm:p-2 sm:w-full sm:rounded-sm ring-2 focus:bg-blue-100 focus:placeholder:text-slate-800 sm:outline-none"
+                placeholder="Enter your message"></textarea>
+            </div>
+
+            <button type="submit" disabled
+              class="bg-blue-400 text-slate-100 sm:py-2 sm:rounded-md ring-2 ring-offset-1 disabled:bg-blue-100 disabled:text-slate-400">Submit</button>
+          </form>
+
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <hr>
+    <footer class="sm:pt-10 sm:pb-3 ">
+
+      <div class="">
+        <p>Credits</p>
+        <a href="https://www.flaticon.com/free-icons/gift" rel="noppener" target="_blank">gift icons created by
+          <strong>Freepik</strong></a>
+      </div>
+      <p class="text-center">Copyrighted &copy; <span>2024</span> Gokul</p>
+    </footer>
+  </div>
+</body>
+
+</html>
